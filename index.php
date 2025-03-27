@@ -1,6 +1,6 @@
 <?php
 
-$filePath = 'php-coding-challenge-main/sample-log.txt';
+$filePath = 'sample-log.txt';
 
 if (file_exists($filePath)) {
     $fileContent = file($filePath, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
